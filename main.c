@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 int main(void)
 {
-    char str[30]="happy C programming";
-    printf("문자열 \" %s\"의 길이 : %i\n", str, strlen(str) );
+    char code1 = 'A';
+    int code2 = 65;
+
+    printf("code1 = %c, (%d)\n", code1, code1);
+    printf("code2 = %c, (%d)\n", code2, code2);
     return 0;
 }
